@@ -1,0 +1,113 @@
+
+#first {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+  }
+  
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+  
+  #texto-saberboot {
+    width: 30%;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background: linear-gradient(to right, black, blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    
+  }
+  
+  .fila-baja {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .bloque1{
+    width: 25%;
+    height: 300px;
+    border: 5px solid #c2185b;
+    border-radius: 20px;
+    background-color: #ec9ec0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .bloque2{
+    width: 25%;
+    height: 300px;
+    border: 5px solid #bc1823;
+    border-radius: 20px;
+    background-color: #fdc6ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .bloque3{
+    width: 25%;
+    height: 300px;
+    border: 5px solid #00f;
+    border-radius: 20px;
+    background-color: #56aeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .texto12{
+    background-color: #c2185b;
+    width: 25rem;
+    text-align: center;
+    padding: 5px;
+  } 
+
+  .texto13{
+    background-color: #bc1823;
+    width: 25rem;
+    text-align: center;
+    padding: 5px;
+  } 
+
+  .texto14{
+    background-color: #00f;
+    width: 25rem;
+    text-align: center;
+    padding: 5px;
+  } 
