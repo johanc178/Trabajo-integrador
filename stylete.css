@@ -1,0 +1,81 @@
+body {
+  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8a9c4;
+  color: #000;
+}
+
+header {
+  background-color: #c61a58;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.task-form, .task-list {
+  background-color: #f09bb8;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task-form h2, .task-list h2 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.task-form h3 {
+  font-weight: normal;
+}
+
+.task-form input,
+.task-form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #a00c45;
+  border-radius: 8px;
+  background-color: #f8a9c4;
+  font-size: 16px;
+}
+
+.task-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #c61a58;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.task {
+  border: 2px solid #a00c45;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f8a9c4;
+  position: relative;
+}
+
+.task strong {
+  display: block;
+  font-weight: bold;
+}
+
+.task span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

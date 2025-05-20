@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: poppins, sans-serif;
+    background-color: #ec9ec0;
+    height: 100vh;
+  }
+  
+  .Barra {
+    background-color: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .content {
+    display: flex;
+    height: calc(100vh - 70px); 
+  }
+  
+  .section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divider {
+    width: 2px;
+    background-color: #c2185b;
+  }
+  
+  .option-button {
+  background-color: #c2185b;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none; /* quita subrayado de enlaces */
+  display: inline-block; /* permite padding funcionar bien en <a> */
+  text-align: center;
+  
+  }
+  
+  
+  .option-button:hover {
+    background-color: #c2185b;
+
+}

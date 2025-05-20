@@ -111,3 +111,8 @@
     text-align: center;
     padding: 5px;
   } 
+
+  div .link1, .link2, .link3, .link4{
+    color: white;
+    text-decoration: none;
+  }
